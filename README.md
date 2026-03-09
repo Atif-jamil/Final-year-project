@@ -28,6 +28,9 @@ Version Control: Git & GitHub
 The project consists of multiple PHP files and CSS stylesheets, each representing a different career path or category. Below is an overview of the file organization:
 <img width="248" height="864" alt="Screenshot 2026-03-09 115358" src="https://github.com/user-attachments/assets/ee269fa4-e98f-4ce4-aef6-b3d31d475551" />
 
+<img width="241" height="847" alt="Screenshot 2026-03-09 115432" src="https://github.com/user-attachments/assets/8a97b0d6-2ec1-4629-adf8-aa76cc3c0012" />
+<img width="230" height="604" alt="Screenshot 2026-03-09 115448" src="https://github.com/user-attachments/assets/4c516a97-584b-4967-82c4-b26ef0d5955d" />
+
 
 🔹 Root Directory
 index.php – Homepage
