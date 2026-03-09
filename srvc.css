@@ -1,0 +1,72 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, section {
+    padding: 20px;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+#services ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.counselor {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.counselor img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.counselor h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#appointment ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+#contact {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+    
+    .counselor {
+        padding: 10px;
+    }
+}

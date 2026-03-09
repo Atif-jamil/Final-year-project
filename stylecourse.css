@@ -1,0 +1,184 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a full-width and full-height background image */
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/courseimage.jpg');
+    background-size: cover;
+    font-family: times new roman, sans-serif;
+  }
+  
+  /* Create a centered content container with semi-transparent background */
+  .container {
+    background-color: rgba(231, 233, 235, 0.87);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 50px auto;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  /* Style for the main heading */
+  .container h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #0056b3;
+    font:bolder;
+  }
+  
+  /* Style for each degree program form */
+  .degree-form {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the degree program titles */
+  .degree-form h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #e74c03;
+  }
+  
+  /* Style for the "explore" button */
+  .degree-form button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 140px;
+  }
+  
+  /* Hover effect for the "Visit Us" button */
+  .degree-form button:hover {
+    background-color: aliceblue;
+    color:#0056b3 ;
+  }
+  
+  footer{
+    background-color: #0f3761;
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    padding: 3rem 1rem;
+}
+.container2{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col2{
+    min-width: 250px;
+    color: aliceblue;
+    font-family: poppins;
+    padding: 0 2rem;
+}
+.col2 .logo{
+    width: 100px;
+    margin-bottom: 25px;
+}
+.col2 h3{
+    color: #ff7200;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.col2 h3::after{
+    content: '';
+    height: 3px;
+    width: 0px;
+    background-color: rgb(236, 228, 231);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+.col2 h3:hover::after{
+    width: 30px;
+}
+.col2 .socials a i{
+    color: #ff7200;
+    margin-top: 2rem;
+    margin-right: 5px;
+    transition: 0.3s ease;
+
+}
+.col2 .socials a i:hover{
+    transform: scale(1.5);
+    filter: grayscale(25);
+}
+.col2 .links a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    margin-bottom: 5px;
+    position: relative;
+    transition: 0.3s ease;
+}
+.col2 .links a::before{
+    content: '';
+    height: 16px;
+    width: 3px;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    background-color: #ff7200;
+    transition: 0.5s ease;
+    opacity: 0;
+}
+.col2 .links a:hover:before{
+    opacity: 1;
+}
+.col2 .links a:hover{
+    transform: translateX(-8px);
+    color: #ff7200;
+}
+.col2 .contact-details{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.col2 .contact-details i{
+    margin-right: 15px;
+}
+/* emailbutton*/
+.row2 .form2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+.row2 .form2 input{
+    background-color: #1a1c20ff;
+    border: 0;
+    outline: none;
+    padding: 14px 20px; 
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form2 button{
+    padding: 14px 20px;
+    border: 0;
+    border-radius: 6px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    background-color: #ff7200;
+}

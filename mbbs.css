@@ -1,0 +1,67 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, ol {
+    margin: 0;
+    padding: 3px;
+}
+
+/* Set background and text colors */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: times new roman, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Style the main content area */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Style sections */
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #003366;
+}
+
+/* Style lists */
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+/* Style footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #003366;
+    color: #fff;
+}
+.section {
+    margin-top: 40px;
+}
+
+.section-title {
+    color: #003366;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    margin-left: 20px;
+}
+
+.quote {
+    font-style: italic;
+    color: #003366;
+}
