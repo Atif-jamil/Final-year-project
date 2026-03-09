@@ -25,7 +25,7 @@ Server: XAMPP (Apache)
 Version Control: Git & GitHub
 
 📂 Project Structure
-The project consists of multiple PHP files and CSS stylesheets, each representing a different career path or category. Below is an overview of the file organization:
+The project consists of multiple PHP files and CSS stylesheets, each representing a different career path or category. Below is an overview of the file organization:<br>
 <img width="248" height="864" alt="Screenshot 2026-03-09 115358" src="https://github.com/user-attachments/assets/ee269fa4-e98f-4ce4-aef6-b3d31d475551" />
 
 <img width="241" height="847" alt="Screenshot 2026-03-09 115432" src="https://github.com/user-attachments/assets/8a97b0d6-2ec1-4629-adf8-aa76cc3c0012" />
@@ -83,5 +83,6 @@ http://localhost/career-path-ahead
 👨‍💻 Developer
 Atif Jamil
 📧 Email: (atifjamil700@gmail.com)
+<br>
 📌 Note
 This project is intended for educational purposes and career guidance. It is a work in progress and may be updated with new features and career paths over time.
